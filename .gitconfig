@@ -1,0 +1,16 @@
+[alias]                                                                                                                                        
+    ec = config --global -e
+    st = status --short
+    co = checkout
+    br = branch
+    undo = reset --soft HEAD^
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit
+    ci = commit
+[core]
+    editor = vim
+[merge]
+    tool = vimdiff
+[mergetool]
+    prompt = false
+[diff]
+    tool = vimdiff
